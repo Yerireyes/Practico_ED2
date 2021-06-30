@@ -652,7 +652,9 @@ public class ArbolBinarioBusqueda<K extends Comparable<K>, V>
         }
         return -1;
     }
-    
+    public NodoBinario<K,V> ejercicio14(NodoBinario<K,V> nodoActual){
+        return nodoSucesorInOrden(nodoActual);
+    }
     private NodoBinario<K,V> nodoSucesorInOrden(NodoBinario<K,V> nodoActual){
         if (NodoBinario.esNodoVacio(nodoActual)) {
             return NodoBinario.nodoVacio();

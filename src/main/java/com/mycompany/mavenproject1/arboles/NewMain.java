@@ -51,15 +51,12 @@ public class NewMain {
         tree2.insertar(75, "fdd");
         tree2.insertar(37, "fdsd");
         
-        System.out.println("Altura: " + tree.altura());
-        System.out.println("Cantidad De Nodos Con Dos Hijos :" + tree.cantidadDeNodoConHijosNoVaciosRec());
-        System.out.println("Cantidad De Nodos Con Dos Hijos :" + tree.cantidadDeHijosNoVacios());
-        System.out.println("Cantidad De Nodos con dos hijos en un nivel " + tree.cantidadDeHijosEnUnNivel(2));
-        System.out.println("Cantidad de hijos hasta un nivel :" + tree.cantidadDeHijosHastaUnNivel(2));
-        System.out.println("Cantidad De Hijos con dos hijos en un nivel recursivo : " + tree.cantidadDeHijosEnUnNivelRec(2));
-        System.out.println("Cantidad de nodos con un hijo distinto de vacio hasta un nivel : " + tree.Ejercicio7(2));
-        System.out.println("Cantidad de nodos InOrden : " + tree.Ejercicio12());
-        System.out.println("Arboles iguales? " + tree.examen1(tree2));
+        System.out.println("Ejercicio 3 :" + tree.cantidadDeHijosNoVacios());
+        System.out.println("Ejercicio 4 :" + tree.cantidadDeNodoConHijosNoVaciosRec());
+        System.out.println("Ejercicio 5 :" + tree.cantidadDeHijosEnUnNivel(2));
+        System.out.println("Ejercicio 6 : " + tree.cantidadDeHijosEnUnNivelRec(2));
+        System.out.println("Ejercicio 7 : " + tree.Ejercicio7(2));
+        System.out.println("Ejercicio 12 : " + tree.Ejercicio12());
     }
     
 }
